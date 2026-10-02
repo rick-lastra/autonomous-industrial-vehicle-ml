@@ -1,6 +1,6 @@
 # Autonomous Industrial Vehicle: ML Product Grouping
 
-Final phase of a machine-learning project for an autonomous vehicle operating in an industrial plant. The vehicle's Phase III task is to group inventory into four physical destination depots using unsupervised learning.
+final project of a machine-learning project for an autonomous vehicle operating in an industrial plant. The vehicle's project workflow task is to group inventory into four physical destination depots using unsupervised learning.
 
 ## Problem and approach
 
@@ -43,7 +43,7 @@ The report records a **silhouette score of 0.4751**, interpreted there as modera
 
 ## Repository code
 
-`src/cluster_products.py` contains the Python cells exported from the Phase III notebook. Configure a permitted input dataset path before running.
+`src/cluster_products.py` contains the Python cells exported from the project workflow notebook. Configure a permitted input dataset path before running.
 
 ## Setup
 
