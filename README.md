@@ -43,7 +43,9 @@ The report records a **silhouette score of 0.4751**, interpreted there as modera
 
 ## Repository code
 
-`src/cluster_products.py` contains the Python cells exported from the project workflow notebook. Configure a permitted input dataset path before running.
+`src/cluster_products.py` contains the Python workflow code. The original synthetic dataset I generated for this project is included at [`data/synthetic_inventory.csv`](data/synthetic_inventory.csv). It has 10,000 records and mixed packaging, dimensions, weight, handling, origin, temperature, and protocol fields. No external data source was used.
+
+To run the analysis, point the script to `data/synthetic_inventory.csv` or copy it to the path expected by the script.
 
 ## Setup
 
@@ -53,4 +55,4 @@ python -m pip install -r requirements.txt
 
 ## Limitations
 
-The inventory is simulated, and the four-depot interpretation depends on the report's generated dataset. A production routing system would require validation with real operating constraints, safety checks, and human oversight. Data and cloud credentials are not included.
+The included inventory is synthetic and was created by me for this project; it contains no real customer or operations records. The four-depot interpretation depends on this generated dataset. A production routing system would require validation with real operating constraints, safety checks, and human oversight. No cloud credentials are included.
